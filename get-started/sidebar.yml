@@ -1,0 +1,14 @@
+---
+section: get-started
+title: Comience con las actualizaciones de software
+entries:
+- title: Obtenga más información sobre las actualizaciones de software
+  url: "/get-started/software-updates.html"
+- title: Prerrequisitos
+  url: "/get-started/prerequisites-ontap-update.html"
+- title: Inicio rápido
+  url: "/get-started/quick-start-ontap-update.html"
+- title: Acceder a actualizaciones de software
+  url: "/get-started/login-software-updates.html"
+- title: Preguntas frecuentes
+  url: "/get-started/software-updates-faq.html"

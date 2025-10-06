@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates.html 
+keywords: ontap 9.10, ontap update, supported systems for ontap update, ontap version, software updates benefits 
+summary: Actualice sin problemas su sistema de almacenamiento ONTAP para aprovechar las funciones nuevas y mejoradas mediante actualizaciones de software. 
+---
+= Obtenga más información sobre las actualizaciones de software
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar actualizaciones de software para permitir que los clientes agilicen las actualizaciones de ONTAP .  Esto puede ayudarle a reducir costos, acelerar cargas de trabajo críticas y mejorar la seguridad.
+
+Las actualizaciones de software automatizan los procesos de evaluación, planificación y ejecución.  El asesor de actualización inteligente predice qué versiones se adaptan mejor al sistema específico, recomendando versiones para solucionar problemas, mejorar la eficiencia y aumentar la seguridad del sistema, lo que permite a los clientes determinar la mejor opción para satisfacer sus necesidades.  Luego distribuye el paquete de software y ejecuta automáticamente la actualización automatizada no distributiva (ANDU), independientemente de los servicios de soporte.
+
+
+
+== Consola de NetApp
+
+Se puede acceder a las actualizaciones de software a través de la consola de NetApp .
+
+La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
+
+No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
+
+Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Consola de NetApp"] .
+
+
+
+== Sistemas ONTAP compatibles
+
+Puede completar la actualización de ONTAP usando actualizaciones de software solo si está ejecutando ONTAP 9.10 o versiones posteriores.
+
+La siguiente información proporciona el proceso de actualización de software para diferentes versiones de ONTAP :
+
+|===
+| *Versión actual de ONTAP * | *Proceso de actualización* 
+
+
+| 9.12 y superior | Todos los pasos de la actualización de ONTAP ocurren dentro de la consola. 
+
+
+| 9.10 a 9.12 | La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real.  Para ejecutar todos los pasos de actualización de ONTAP dentro de la consola, necesitalink:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["configurar un agente de consola"] . 
+
+
+| 9.8 a 9.10 | La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real. 
+
+
+| Por debajo de 9,7 | La actualización automatizada de ONTAP no es compatible con este clúster.  Necesita actualizar ONTAP manualmente. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["Actualice manualmente sus sistemas de almacenamiento"] . 
+|===
+
+
+== Beneficios de utilizar actualizaciones de software
+
+Actualizar su sistema de almacenamiento ONTAP puede ayudarlo a mejorar el rendimiento, la seguridad y la funcionalidad de su sistema de almacenamiento.
+
+Algunos de los beneficios de actualizar su sistema de almacenamiento ONTAP son:
+
+* Puede acceder a las últimas funciones y mejoras que ofrece ONTAP , como nuevos protocolos, servicios de datos y opciones de integración en la nube.
+* Puede corregir cualquier error o vulnerabilidad que pueda afectar la estabilidad, confiabilidad o seguridad de su sistema.
+* Puede optimizar el rendimiento y la eficiencia de su sistema aplicando los últimos parches y mejoras.
+* Puede garantizar la compatibilidad e interoperabilidad con otros productos de NetApp , aplicaciones de terceros y proveedores de nube.
+* Puede beneficiarse del soporte y mantenimiento continuo que NetApp brinda para las últimas versiones del sistema operativo ONTAP .
+
+
+
+
+== Costo
+
+NetApp no ​​le cobra por utilizar actualizaciones de software.

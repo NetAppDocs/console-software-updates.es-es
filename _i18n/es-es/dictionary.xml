@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f6f16bb8e1efb9727b0dcf9a90373ffb" category="summary">Comprenda los beneficios y riesgos de cada versión de ONTAP antes de actualizar su sistema de almacenamiento ONTAP .</block>
+  <block id="b75c1aac9aa77f2c871639ef1dfb023d" category="doc">Compare las versiones de ONTAP para comprender los beneficios y riesgos de usar actualizaciones de software</block>
+  <block id="49d68f82813e1841cdc24205608d8fe2" category="paragraph">Es muy importante comparar y comprender los beneficios y riesgos asociados con la versión de destino de ONTAP antes de actualizar la versión de ONTAP para el sistema de almacenamiento.</block>
+  <block id="0634e55ef28524df4ddd4c1ddfd72bdd" category="paragraph">Puede elegir la versión de destino y compararla con la versión actual para comprender los beneficios de actualizar a la versión específica en ONTAP.  También puede ver los riesgos que se resolverán y los nuevos riesgos (si los hay) que surgirán al actualizar a la versión específica de ONTAP.</block>
+  <block id="74083ab8069d07080edb25320474b13b" category="admonition">Puede utilizar esta función solo si está ejecutando ONTAP 9.10 o versiones posteriores.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Pasos</block>
+  <block id="2c8105f21aa500d6eefa19e4072f9f91" category="list-text">Desde la navegación izquierda de la consola, seleccione *Salud* &gt; *Actualizaciones de software*.</block>
+  <block id="a3357e3f3f28af2c155b25638df91fdb" category="paragraph">Se muestra la lista de clústeres que requieren una actualización de software.  Puede actualizar a la versión de destino recomendada o elegir otra versión.</block>
+  <block id="61a6d655671eebbd633c1d84fae09e17" category="cell">Si usted...</block>
+  <block id="5e2ad6fd9deb412d871137094ee43ef0" category="cell">Haz esto...</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="d595af5345baae69010ca28d3b2a07af" category="paragraph">¿Quieres actualizar a la versión recomendada?</block>
+  <block id="d0fe00198465906dc8b10bbe7a0ba622" category="list-text">En la columna *Versión de destino*, haga clic en *Comparar versiones* para ver los beneficios y riesgos de actualizar a la versión recomendada de ONTAP .</block>
+  <block id="384993cefe135934c52ec27ded6a4b00" category="list-text">Seleccione y vea información sobre los riesgos que se resolverán, los riesgos que continuarán existiendo y los nuevos riesgos que se introducirán después de la actualización.</block>
+  <block id="dde03ddfea2af6f3d3cbdacf6273f14f" category="list-text">Opcionalmente, haga clic en *Descargar plan de actualización* para descargar una copia del plan de actualización.</block>
+  <block id="81c582603d9979ae5efc5399c20207bb" category="list-text">Haga clic en *Iniciar actualización* para iniciar el proceso de actualización.</block>
+  <block id="e60aa2a846853b9259eb63596645cf46" category="paragraph">¿Quieres elegir otra versión?</block>
+  <block id="ce8713ab9112653cc16cb5634de213b3" category="list-text">En la columna *Versión de destino*, haga clic en el menú desplegable y seleccione *Elegir otras versiones*.</block>
+  <block id="5283309105a904a39b6bafe0f67055f3" category="list-text">Seleccione la versión para ver los beneficios de las funciones y los riesgos.</block>
+  <block id="0fdb0ceffdc4d2d2cdb1f927a8e4bbe5" category="list-text">Seleccione *Iniciar actualización* para iniciar el proceso de actualización.</block>
+  <block id="8458cbd22efac91a6b68db38492fd62e" category="summary">Corrija los bloqueadores de ONTAP y reconozca las advertencias que le impiden completar la actualización de ONTAP .</block>
+  <block id="26ba8b9b55e65dc6a858f236255efacb" category="doc">Corrija todos los bloqueadores mediante actualizaciones de software antes de una actualización de ONTAP</block>
+  <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">Una vez que haya identificado la versión de destino de ONTAP para su sistema de almacenamiento de ONTAP , debe corregir y reconocer todos los bloqueadores y revisar las advertencias antes de actualizar el sistema de almacenamiento de ONTAP .</block>
+  <block id="94a69c4493d5709adca25152bd529966" category="paragraph">Debes reparar y reconocer todos los bloqueadores antes de actualizar el software.</block>
+  <block id="ba38704965acbf6846952c2bb014de45" category="paragraph">La consola muestra la lista de clústeres que requieren una actualización de software.</block>
+  <block id="b9ba69413eb7f3ff93a8fb2231a03014" category="list-text">Identifique la versión de destino de ONTAP para su sistema de almacenamiento.  Para obtener información sobre cómo identificar la versión de destino de ONTAP , consulte<block ref="811a6bc111a68a7468006fcebcb17b1a" category="inline-link-macro-rx"></block> .</block>
+  <block id="33ba4cda6895a31680b2de36d86dab15" category="list-text">Una vez que haya decidido la versión de destino de ONTAP , seleccione *Preparar para actualización* para iniciar el proceso de actualización.</block>
+  <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">Se muestra la lista de bloqueadores y advertencias.</block>
+  <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">Seleccione el bloqueador para ver las instrucciones para solucionarlo.</block>
+  <block id="8aa655b81ac9a54174b8b2f3c0e078b3" category="list-text">Realice manualmente los pasos proporcionados para solucionar el bloqueador.</block>
+  <block id="6a9157b81110d193ae9726acd434a73b" category="list-text">Seleccione los bloqueadores que se han corregido y seleccione *Reconocer seleccionados* para reconocer que esos bloqueadores se han corregido.</block>
+  <block id="deef003c349019061441ab60dd6ecf90" category="admonition">Debes reparar y reconocer todos los bloqueadores para continuar con la actualización.</block>
+  <block id="f1bceb312606e73e3fc3cb05ba0db012" category="list-text">Seleccione la pestaña *Advertencias* para revisar las advertencias antes de continuar con la actualización del software.</block>
+  <block id="185674eb1bcbdcee59090d2a4854c5bd" category="list-text">Seleccione la pestaña *Reconocer* para ver los bloqueadores que se han solucionado.</block>
+  <block id="46ab049c063b4859793fe4d01b477a97" category="list-text">Seleccione *Continuar con la actualización* para continuar con el proceso de actualización.</block>
+  <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">Actualice su sistema de almacenamiento ONTAP para aprovechar las funciones nuevas y mejoradas.</block>
+  <block id="b999d3e2ca0d95fc761f8994426c1b75" category="doc">Inicie la actualización de ONTAP mediante actualizaciones de software</block>
+  <block id="0ae470cfcd6da9622bf1c34549a18b77" category="paragraph">Una vez que haya identificado la versión de destino de ONTAP y haya corregido y reconocido todos los bloqueadores, ahora puede iniciar la actualización de su sistema de almacenamiento ONTAP .</block>
+  <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">Se muestra la lista de clústeres que requieren una actualización de software.</block>
+  <block id="71131c9e35974213e2b0a3cbac2fbddc" category="list-text">Corrija y reconozca los bloqueadores de ONTAP .  Para obtener información sobre cómo reparar bloqueadores, consulte<block ref="a0c773d092c5c735a87bc32f8b10113b" category="inline-link-macro-rx"></block> .</block>
+  <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">Lea y acepte el acuerdo de licencia de usuario final.</block>
+  <block id="7e6935bb4ba08bd2b040fec7140cefe8" category="paragraph">Espere a que se recupere la imagen ONTAP .</block>
+  <block id="b707a048aebf6a3d5685827572cc3de1" category="list-text">Haga clic en *Instalar actualización* para completar el proceso de actualización.</block>
+  <block id="2086b43ba817368b623c8b845f4a2c86" category="summary">Valide el estado de su actualización de ONTAP para decidir los próximos pasos que deben realizarse.</block>
+  <block id="2cffa96ea0fb9d5b545b8cc40a61d4a3" category="doc">Validar el estado de la actualización del sistema de almacenamiento ONTAP</block>
+  <block id="2d8459ca63cf5a25a15cfe17cb42b99a" category="paragraph">Puede utilizar actualizaciones de software para validar el estado de la actualización de ONTAP .</block>
+  <block id="82eb3f6374cb74069e9ac86a78c4c7b7" category="list-text">Haga clic en la pestaña *Historial* para ver el estado de la actualización de ONTAP .</block>
+  <block id="0ca4b31fab05c7c65ce3168c99116299" category="admonition">El clúster tarda entre 2 y 3 horas en reflejarse en la pestaña de historial.</block>
+  <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="doc">Actualización de ONTAP</block>
+  <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">El servicio de BlueXP software updates brinda una experiencia de actualización perfecta a los usuarios al mitigar los riesgos y garantizar que los clientes puedan aprovechar al máximo las funciones de ONTAP .</block>
+  <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP software updates</block>
+  <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">Obtenga más información sobre <block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block> .</block>
+  <block id="f50a226c5a51111405309ae78236d95d" category="doc">Riesgos mitigados</block>
+  <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">En la sección de resumen de BlueXP software updates, ahora puede ver la cantidad total de riesgos que se pueden mitigar con la actualización del sistema operativo.  Esto permite a los usuarios evaluar las mejoras de seguridad y estabilidad en su base de instalación.</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">Se necesita el rol de acceso a BlueXP</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">Obtenga más información sobre los roles de acceso de BlueXP .</block>
+  <block id="0ba1431a5e1efd67eb75f1a5872b7907" category="paragraph">Ahora necesita uno de los siguientes roles de acceso para instalar actualizaciones de software: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento*, *Visor de almacenamiento* o *Especialista en estado de almacenamiento*.  Los usuarios con el rol de visualizador de almacenamiento tienen varios permisos relacionados con las actualizaciones de software, pero no pueden instalar actualizaciones de software.<block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="cd3f28b2e598d8cf73182a1f91e56bd2" category="doc">Las BlueXP software updates ahora son actualizaciones de software</block>
+  <block id="c427d923073409f1bf94d8ce5a7ec6e8" category="paragraph">Las BlueXP software updates han pasado a llamarse actualizaciones de software.</block>
+  <block id="6054363caf6b8dcd4fa522e9440e82cd" category="paragraph">Puede acceder a él desde la barra de navegación izquierda de la consola NetApp seleccionando *Estado* &gt; *Actualizaciones de software*.</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP ahora es NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">Notas de la versión de la consola de NetApp</block>
+  <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">Para obtener más detalles sobre lo que ha cambiado, consulte la<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
+  <block id="36e0a425c58423615b82b4c7bb2d51a0" category="summary">Inicie sesión y acceda a las actualizaciones de software.</block>
+  <block id="21c06c9477279668bf28a9e4da590a92" category="doc">Acceder a actualizaciones de software</block>
+  <block id="a37a8670b1f569f8fd4ac2c2a87ec534" category="paragraph">Para acceder a las actualizaciones de software, debe iniciar sesión en la consola de NetApp .</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">Obtenga más información sobre cómo iniciar sesión</block>
+  <block id="230d35f4908eaf75941424e12900b125" category="paragraph">Inicie sesión con sus credenciales del sitio de soporte de NetApp o regístrese con su correo electrónico y contraseña. <block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block> .</block>
+  <block id="bccaa4aa80831b76c11240a16447975f" category="inline-link-macro">Consola</block>
+  <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">Abra un navegador web y vaya a<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block> .</block>
+  <block id="37714a89b896f344ab832a30a2967dd8" category="paragraph">La consola muestra la página de inicio de sesión.</block>
+  <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">Inicie sesión en la consola.</block>
+  <block id="3b16a9fc9b35a1c097a64ed8f9fc29ce" category="list-text">Desde la navegación izquierda de la consola, seleccione *Salud &gt; Actualizaciones de software.*</block>
+  <block id="20b41c007263bf3cb834352319595be6" category="summary">Revise los prerrequisitos y requisitos antes de continuar con la actualización de ONTAP .</block>
+  <block id="31dc6a15adf8edc01571240dc04fa15b" category="doc">Prepárese para actualizar ONTAP mediante actualizaciones de software</block>
+  <block id="64b0076e7811183337cd856e7da0cf58" category="paragraph">Debe revisar los requisitos previos y los requisitos antes de continuar con la actualización de ONTAP .  Puede utilizar actualizaciones de software para verificar la preparación de su sistema, inicio de sesión, acceso a la red y navegador web.</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">Rol de consola de NetApp requerido:</block>
+  <block id="34333d2783171ddc2c4a2d45b04576db" category="inline-link-macro">Obtenga información sobre los roles de acceso a la consola.</block>
+  <block id="ce1e7e666008846668ca8408c7c607ee" category="paragraph">Administrador de la organización, administrador de carpeta o proyecto, administrador de almacenamiento, visor de almacenamiento o especialista en estado del sistema.<block ref="42df8f700eadc46d3f2849494d83725a" category="inline-link-macro-rx"></block></block>
+  <block id="29ce97647593ada6d100b722b3a51559" category="paragraph">Para utilizar actualizaciones de software, debe asegurarse de que su sistema cumpla con todos los requisitos.</block>
+  <block id="23753a7836eeb4045452e66e687dbad6" category="list-text">Se configura un sistema en la consola.</block>
+  <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">Las credenciales de administrador están disponibles para el clúster deseado mientras se realiza la actualización de software.</block>
+  <block id="b34cd7f587984e9b254885f6d8640801" category="list-text">Todos los nodos del clúster están enviando datos de AutoSupport .</block>
+  <block id="27eb16a8f5038a8a66d0aec86d022bbd" category="list-text">Todos los nodos deben ejecutarse en ONTAP 9.10 o versiones posteriores.</block>
+  <block id="8cb2d0d931dcf081c2e6cdb9235d0efa" category="list-text">Los nodos no deben estar en una configuración MetroCluster .</block>
+  <block id="2dc7ae12158353c62d51898b1414574d" category="summary">Comience a actualizar su sistema de almacenamiento ONTAP de manera sencilla y rápida.</block>
+  <block id="798a6e52e04dbe32b660de894b56e6ec" category="doc">Inicio rápido para actualizar ONTAP mediante actualizaciones de software</block>
+  <block id="84d8735e89be78d4528fdfa1c141e25a" category="paragraph">A continuación se muestra una descripción general de los pasos necesarios para comenzar rápidamente con las actualizaciones de software. Los enlaces dentro de cada paso lo llevarán a una página que proporciona más detalles.</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>Revisar los prerrequisitos</block>
+  <block id="8245d68da46718af8e64343032f76d49" category="inline-link-macro">Asegúrese de que su sistema cumpla estos requisitos</block>
+  <block id="4970ba9e7bcfdaa30d4edb6a47f6aff5" category="paragraph"><block ref="0d4b5f251aefb8ae931ed1812a4e92d6" category="inline-link-macro-rx"></block> .</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Dos</block>
+  <block id="c70be312b56de441aa18134a66910283" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>Actualice su sistema de almacenamiento ONTAP</block>
+  <block id="8f58f58fe7eea7cb206fb56f08f86519" category="paragraph">Debe completar todas las tareas para actualizar el sistema de almacenamiento ONTAP .</block>
+  <block id="826fb5e9f8960f11bd43ffdb851cd6ec" category="inline-link-macro">Identificar la versión de destino de ONTAP</block>
+  <block id="222c85c08b5a96f00b67ecc9a862d8e3" category="list-text"><block ref="56952887698b933e80133d586b291f77" category="inline-link-macro-rx"></block> .</block>
+  <block id="34901ddbf2069e3a9f4f51ac2932a5f0" category="inline-link-macro">Reparar y reconocer bloqueadores</block>
+  <block id="76c686ca7cefba70f2446a6f2ef444a0" category="list-text"><block ref="56ca2379e58715613fbc3346e3417d9e" category="inline-link-macro-rx"></block> .</block>
+  <block id="aefddf6f7caf3ec5d9c3b6b26eb75df1" category="inline-link-macro">Actualizaciones completas del sistema de almacenamiento ONTAP</block>
+  <block id="c6134ea619bf0932dd262fee8468d30b" category="list-text"><block ref="92eb7c55943780703f0961bd4e1eac6c" category="inline-link-macro-rx"></block> .</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">Tres</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block>¿Que sigue?</block>
+  <block id="a92f42e8a6bb6042f669f3abd9ce4ccc" category="paragraph">Después de actualizar el sistema de almacenamiento ONTAP , esto es lo que puede hacer a continuación.</block>
+  <block id="20d07d8fbe66f0a93aa19234a6281583" category="paragraph"><block ref="64ffd4ac1c7206890e581f7b5a3f2be9" category="inline-link-macro-rx"></block> .</block>
+  <block id="941f5fc8c77cdb1bb6720e3caadbda45" category="summary">Vea las respuestas a las preguntas frecuentes sobre actualizaciones de software.</block>
+  <block id="b33588f2fe268cea60d6a81ad7835c4d" category="doc">Preguntas frecuentes sobre actualizaciones de software</block>
+  <block id="c2ef1770bf177f2640d7a770ceb5cd90" category="paragraph">Si desea saber más sobre las actualizaciones de software o necesita ayuda para solucionar problemas, puede revisar estas preguntas para obtener una respuesta rápida.</block>
+  <block id="8d1cd15cf644278ec02f2e4f7fac4a36" category="paragraph">*¿Cuál es la URL de actualizaciones de software?*</block>
+  <block id="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link"><block ref="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link-rx"></block></block>
+  <block id="06f56497057766b70a1f7bd9c356bd57" category="paragraph">Para la URL, en un navegador, ingrese:<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> para acceder a la consola de NetApp .</block>
+  <block id="94d2818b08a97e51d03596f19fbdc1ca" category="paragraph">¿Necesita una licencia para utilizar actualizaciones de software?</block>
+  <block id="5f2ba40ecab933bbf8f2c6806901fc08" category="paragraph">No se requiere un archivo de licencia de NetApp (NLF).</block>
+  <block id="6a9fe8c909f24f7202b4616f5d777225" category="paragraph">¿Por qué no puedo ver el clúster en la pestaña de historial incluso después de actualizar la versión ONTAP del clúster?</block>
+  <block id="acb74063a7a6c957d80c2fbc881d9484" category="paragraph">El clúster tarda entre 2 y 3 horas en aparecer en la pestaña de historial.  Una vez que se actualiza la versión ONTAP del clúster, se genera AutoSupport .  Se necesitan entre 2 y 3 horas para procesar los datos de AutoSupport y reflejar la última versión de ONTAP.</block>
+  <block id="fb1a576523e6d98a2637113b1f2ddc77" category="paragraph">¿Por qué veo la versión anterior de ONTAP en el panel de actualizaciones de software incluso después de actualizar la versión de ONTAP del clúster?</block>
+  <block id="cd7a9b3aab856990de5540e448854d37" category="paragraph">¿Por qué veo pantallas diferentes para diferentes actualizaciones?</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="inline-link-macro">Sistemas ONTAP compatibles</block>
+  <block id="7f31f5ef0d42885602c1d54de2e6d552" category="paragraph">Esto se debe a la versión actual de ONTAP y a la falta de disponibilidad de un agente de consola para clústeres.  Un agente de consola realiza la actualización de ONTAP dentro de la consola y no requiere que usted salga de la consola para realizar una actualización.  Si no tiene un agente de consola, será redirigido al Administrador del sistema y deberá volver a ingresar las credenciales del clúster de ONTAP .  Para obtener información sobre el proceso de actualización de ONTAP para diferentes versiones de ONTAP, consulte<block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block> .</block>
+  <block id="301053661b8bcb5b62150d8c97038d47" category="paragraph">¿Qué necesito para descubrir clusters?</block>
+  <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">Para realizar la actualización de ONTAP para el clúster deseado, necesita la IP del clúster de ONTAP y las credenciales de administrador para conectarse al clúster.  Como parte del descubrimiento del clúster, debe proporcionar estos detalles para que la actualización de ONTAP se pueda ejecutar automáticamente.</block>
+  <block id="0a7ea76c19ce14ea769fa96b38086400" category="paragraph">También debe tener uno de los siguientes roles de acceso: administrador de organización, administrador de carpeta o proyecto, o administrador de almacenamiento.</block>
+  <block id="b206c05f3143cb536ab2a0783f48a7e8" category="summary">Actualice sin problemas su sistema de almacenamiento ONTAP para aprovechar las funciones nuevas y mejoradas mediante actualizaciones de software.</block>
+  <block id="937317973346a008aebc8e0e7ec439e2" category="doc">Obtenga más información sobre las actualizaciones de software</block>
+  <block id="ea9618a7a451fe8d74afaa5fc8b8501b" category="paragraph">Puede utilizar actualizaciones de software para permitir que los clientes agilicen las actualizaciones de ONTAP .  Esto puede ayudarle a reducir costos, acelerar cargas de trabajo críticas y mejorar la seguridad.</block>
+  <block id="5e4eb049efb35bf6b88b1bd1ef731a09" category="paragraph">Las actualizaciones de software automatizan los procesos de evaluación, planificación y ejecución.  El asesor de actualización inteligente predice qué versiones se adaptan mejor al sistema específico, recomendando versiones para solucionar problemas, mejorar la eficiencia y aumentar la seguridad del sistema, lo que permite a los clientes determinar la mejor opción para satisfacer sus necesidades.  Luego distribuye el paquete de software y ejecuta automáticamente la actualización automatizada no distributiva (ANDU), independientemente de los servicios de soporte.</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">Consola de NetApp</block>
+  <block id="c0af29f3d69966c6e37227018f3ee366" category="paragraph">Se puede acceder a las actualizaciones de software a través de la consola de NetApp .</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.</block>
+  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.</block>
+  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">Obtenga más información sobre el<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block> .</block>
+  <block id="9f457dd05c49b0680cc820751e5f05e0" category="paragraph">Puede completar la actualización de ONTAP usando actualizaciones de software solo si está ejecutando ONTAP 9.10 o versiones posteriores.</block>
+  <block id="41925df988245764ca51e3f019b7e67f" category="paragraph">La siguiente información proporciona el proceso de actualización de software para diferentes versiones de ONTAP :</block>
+  <block id="41ca04e9eb8e8b4b1e9ab896420680d1" category="cell">*Versión actual de ONTAP *</block>
+  <block id="f50b087d08c30ad58b6a4e58fec94218" category="cell">*Proceso de actualización*</block>
+  <block id="ec3d19b838303db83f08c34ee1acef64" category="cell">9.12 y superior</block>
+  <block id="cf11ab55bd87e367e0fffc998a9fac43" category="cell">Todos los pasos de la actualización de ONTAP ocurren dentro de la consola.</block>
+  <block id="4911e961085841443a38c7723e51db5f" category="cell">9.10 a 9.12</block>
+  <block id="fe385f63e4159e3390e41f9eeda9cf35" category="inline-link-macro">configurar un agente de consola</block>
+  <block id="457e44cfd5d2481a65965d165183a3bc" category="cell">La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real.  Para ejecutar todos los pasos de actualización de ONTAP dentro de la consola, necesita<block ref="bce7df831b83d66967fef86874454a8e" category="inline-link-macro-rx"></block> .</block>
+  <block id="1155c13f250f6538852b47b97dbe4f25" category="cell">9.8 a 9.10</block>
+  <block id="8a4c9ac4196c389266a1503d3c95d6e7" category="cell">La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real.</block>
+  <block id="60b64e93a40027428832c857c7a71b2d" category="cell">Por debajo de 9,7</block>
+  <block id="33aad00fefff1fbc590e315d690c00a8" category="inline-link-macro">Actualice manualmente sus sistemas de almacenamiento</block>
+  <block id="a829c0850bfb0d68ecc9eb68603b5023" category="cell">La actualización automatizada de ONTAP no es compatible con este clúster.  Necesita actualizar ONTAP manualmente. Para obtener más información, consulte <block ref="a1f8498c9b7905b725c4102bd3d5d83c" category="inline-link-macro-rx"></block> .</block>
+  <block id="d2defbf3afd50085b59a5d594bae7c67" category="section-title">Beneficios de utilizar actualizaciones de software</block>
+  <block id="f0daf4a0e66ba6802960eda6390d1d61" category="paragraph">Actualizar su sistema de almacenamiento ONTAP puede ayudarlo a mejorar el rendimiento, la seguridad y la funcionalidad de su sistema de almacenamiento.</block>
+  <block id="b99345e3abc797269f14f7b47fa81ccf" category="paragraph">Algunos de los beneficios de actualizar su sistema de almacenamiento ONTAP son:</block>
+  <block id="702c403ccdc01021f46487913f934cdb" category="list-text">Puede acceder a las últimas funciones y mejoras que ofrece ONTAP , como nuevos protocolos, servicios de datos y opciones de integración en la nube.</block>
+  <block id="ff5911eb7729deebb1c8642d501d5604" category="list-text">Puede corregir cualquier error o vulnerabilidad que pueda afectar la estabilidad, confiabilidad o seguridad de su sistema.</block>
+  <block id="63d0120e90448009ab2836abf7b1b7a5" category="list-text">Puede optimizar el rendimiento y la eficiencia de su sistema aplicando los últimos parches y mejoras.</block>
+  <block id="b7a37e1c1d64d306cdbebfe5093202c7" category="list-text">Puede garantizar la compatibilidad e interoperabilidad con otros productos de NetApp , aplicaciones de terceros y proveedores de nube.</block>
+  <block id="2bba882789946cd1d1a2e47e7d673985" category="list-text">Puede beneficiarse del soporte y mantenimiento continuo que NetApp brinda para las últimas versiones del sistema operativo ONTAP .</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Costo</block>
+  <block id="b1b0440f75a979fe2d1ec9d044846fd7" category="paragraph">NetApp no ​​le cobra por utilizar actualizaciones de software.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Los avisos legales proporcionan acceso a declaraciones de derechos de autor, marcas comerciales, patentes y más.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciales</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, el logotipo de NETAPP y las marcas enumeradas en la página de Marcas comerciales de NetApp son marcas comerciales de NetApp, Inc. Otros nombres de empresas y productos pueden ser marcas comerciales de sus respectivos propietarios.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Puede encontrar una lista actualizada de las patentes propiedad de NetApp en:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidad</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código abierto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Los archivos de aviso proporcionan información sobre derechos de autor y licencias de terceros utilizados en el software de NetApp .</block>
+  <block id="162955ebb9cd03c3997a649285f1ff43" category="summary">Conozca las nuevas características y mejoras introducidas en las actualizaciones de software.</block>
+  <block id="8246ee90c34e354e84b19315be956946" category="doc">Novedades en las actualizaciones de software</block>
+  <block id="83dd7783af400fd6dbe3cb57f8bb15d4" category="paragraph">Conozca las novedades en actualizaciones de software.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 de octubre de 2025</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">12 de mayo de 2025</block>
+  <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">02 de abril de 2025</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">7 de agosto de 2024</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp proporciona soporte para NetApp Console de distintas maneras. Hay amplias opciones de autoayuda gratuitas disponibles las 24 horas, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtener ayuda</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp ofrece soporte para BlueXP y sus servicios en la nube de diversas maneras. Disponemos de amplias opciones de autoasistencia gratuitas las 24 horas, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtenga soporte para un servicio de archivos de un proveedor de nube</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obtener asistencia técnica relacionada con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulte "Obtener ayuda" en la documentación de BlueXP para ese producto.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx para ONTAP</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para recibir soporte técnico específico para BlueXP y sus soluciones y servicios de almacenamiento, utilice las opciones de soporte que se describen a continuación.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilice opciones de autosuficiencia</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Estas opciones están disponibles de forma gratuita, las 24 horas del día, los 7 días de la semana:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentación</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentación de BlueXP que estás viendo actualmente.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de conocimientos</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Busque en la base de conocimientos de BlueXP para encontrar artículos útiles para solucionar problemas.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Comunidades</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Únase a la comunidad BlueXP para seguir las discusiones en curso o crear otras nuevas.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Cree un caso con el soporte de NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Además de las opciones de autosoporte anteriores, puede trabajar con un especialista de soporte de NetApp para resolver cualquier problema después de activar el soporte.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Antes de empezar</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Aprenda a administrar las credenciales asociadas con su inicio de sesión de BlueXP</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Para utilizar la función *Crear un caso*, primero debe asociar sus credenciales del sitio de soporte de NetApp con su inicio de sesión de BlueXP .<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block> .</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Si está abriendo un caso para un sistema ONTAP que tiene un número de serie, entonces su cuenta NSS debe estar asociada con el número de serie de ese sistema.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">En BlueXP, seleccione *Ayuda &gt; Soporte*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Seleccione *Llámenos* si desea hablar con alguien por teléfono. Serás dirigido a una página en netapp.com que enumera los números de teléfono a los que puedes llamar.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Seleccione *Crear un caso* para abrir un ticket con un especialista de soporte de NetApp :</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servicio*: Seleccione el servicio con el que está asociado el problema. Por ejemplo, BlueXP cuando es específico para un problema de soporte técnico con flujos de trabajo o funcionalidad dentro del servicio.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Entorno de trabajo*: si corresponde al almacenamiento, seleccione * Cloud Volumes ONTAP* o *On-Prem* y luego el entorno de trabajo asociado.</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">La lista de entornos de trabajo está dentro del alcance de la organización (o cuenta), el proyecto (o espacio de trabajo) y el conector de BlueXP que haya seleccionado en el banner superior del servicio.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Prioridad del caso*: elija la prioridad del caso, que puede ser Baja, Media, Alta o Crítica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Para obtener más detalles sobre estas prioridades, pase el mouse sobre el ícono de información junto al nombre del campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descripción del problema*: proporcione una descripción detallada de su problema, incluidos los mensajes de error aplicables o los pasos de solución de problemas que realizó.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Direcciones de correo electrónico adicionales*: Ingrese direcciones de correo electrónico adicionales si desea informar a otra persona sobre este problema.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Adjunto (opcional)*: cargue hasta cinco archivos adjuntos, uno a la vez.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Los archivos adjuntos están limitados a 25 MB por archivo. Se admiten las siguientes extensiones de archivo: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx y csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Una captura de pantalla del formulario Crear un caso que le permite crear un caso con el soporte de NetApp .</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Después de terminar</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Aparecerá una ventana emergente con su número de caso de soporte. Un especialista de soporte de NetApp revisará su caso y se comunicará con usted pronto.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Para obtener un historial de sus casos de soporte, puede seleccionar *Configuración &gt; Cronología* y buscar acciones llamadas "crear caso de soporte". Un botón en el extremo derecho le permite expandir la acción para ver detalles.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Es posible que encuentres el siguiente mensaje de error al intentar crear un caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"No está autorizado a crear un caso contra el servicio seleccionado"</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Este error podría significar que la cuenta NSS y la empresa registrada con la que está asociada no son la misma empresa registrada para el número de serie de la cuenta BlueXP (es decir, 960xxxx) o el número de serie del entorno de trabajo. Puede buscar ayuda utilizando una de las siguientes opciones:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilice el chat dentro del producto</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Envíe un caso no técnico a<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gestione sus casos de soporte (Vista previa)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Puede ver y administrar casos de soporte activos y resueltos directamente desde BlueXP. Podrás gestionar los casos asociados a tu cuenta NSS y a tu empresa.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">La gestión de casos está disponible como vista previa. Planeamos perfeccionar esta experiencia y agregar mejoras en próximas versiones. Envíenos sus comentarios mediante el chat del producto.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Tenga en cuenta lo siguiente:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">El panel de gestión de casos en la parte superior de la página ofrece dos vistas:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">La vista de la izquierda muestra el total de casos abiertos en los últimos 3 meses por la cuenta de usuario NSS que usted proporcionó.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">La vista de la derecha muestra el total de casos abiertos en los últimos 3 meses a nivel de su empresa en función de su cuenta de usuario NSS.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Los resultados en la tabla reflejan los casos relacionados con la vista que usted seleccionó.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Puede agregar o eliminar columnas de interés y puede filtrar el contenido de columnas como Prioridad y Estado. Otras columnas sólo proporcionan capacidades de clasificación.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Vea los pasos a continuación para obtener más detalles.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">A nivel de caso, ofrecemos la posibilidad de actualizar notas de caso o cerrar un caso que aún no esté en estado Cerrado o Pendiente de cierre.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Seleccione *Administración de casos* y, si se le solicita, agregue su cuenta NSS a BlueXP.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La página *Administración de casos* muestra casos abiertos relacionados con la cuenta NSS que está asociada con su cuenta de usuario de BlueXP . Esta es la misma cuenta NSS que aparece en la parte superior de la página de *administración de NSS*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Modifique opcionalmente la información que se muestra en la tabla:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">En *Casos de la organización*, seleccione *Ver* para ver todos los casos asociados a su empresa.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifique el rango de fechas eligiendo un rango de fechas exacto o eligiendo un período de tiempo diferente.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Una captura de pantalla de la opción sobre la tabla en la página de Administración de casos que le permite elegir un rango de fechas exacto o los últimos 7 días, 30 días o 3 meses.</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrar el contenido de las columnas.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Una captura de pantalla de la opción de filtro en la columna Estado que le permite filtrar los casos que coinciden con un estado específico, como Activo o Cerrado.</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">El icono más que aparece en la tabla</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Cambie las columnas que aparecen en la tabla seleccionando<block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> y luego elegir las columnas que desea mostrar.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Una captura de pantalla que muestra las columnas que puede mostrar en la tabla.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Un icono con tres puntos que aparece en la última columna de la tabla.</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Gestionar un caso existente seleccionando<block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> y seleccionando una de las opciones disponibles:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Ver detalles completos sobre un caso específico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Actualizar notas del caso*: proporcione detalles adicionales sobre su problema o seleccione *Cargar archivos* para adjuntar hasta un máximo de cinco archivos.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Cerrar caso*: proporcione detalles sobre el motivo por el cual está cerrando el caso y seleccione *Cerrar caso*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Una captura de pantalla que muestra las acciones que puede realizar después de seleccionar el menú en la última columna de la tabla.</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp , debe agregar una cuenta del sitio de soporte de NetApp a la consola de NetApp y luego registrarse para recibir soporte.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Regístrese para recibir asistencia</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">Es necesario registrarse para recibir soporte técnico específico para BlueXP y sus soluciones y servicios de almacenamiento. También es necesario registrarse para obtener soporte técnico para habilitar flujos de trabajo clave para los sistemas Cloud Volumes ONTAP .</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">Registrarse para recibir soporte no habilita el soporte de NetApp para un servicio de archivos de un proveedor de nube. Para obtener asistencia técnica relacionada con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulte "Obtener ayuda" en la documentación de BlueXP para ese producto.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Descripción general del registro de soporte</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Existen dos formas de registro para activar el derecho a recibir ayuda:</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">Registrar el número de serie de su cuenta BlueXP (su número de serie 960xxxxxxxxx de 20 dígitos ubicado en la página de Recursos de soporte en BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Esto sirve como su ID de suscripción de soporte único para cualquier servicio dentro de BlueXP. Cada suscripción de soporte a nivel de cuenta de BlueXP debe estar registrada.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrar los números de serie de Cloud Volumes ONTAP asociados con una suscripción en el mercado de su proveedor de nube (son números de serie 909201xxxxxxxx de 20 dígitos).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Estos números de serie se conocen comúnmente como _números de serie PAYGO_ y son generados por BlueXP en el momento de la implementación de Cloud Volumes ONTAP .</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">El registro de ambos tipos de números de serie permite funciones como la apertura de tickets de soporte y la generación automática de casos. El registro se completa agregando cuentas del sitio de soporte de NetApp (NSS) a BlueXP como se describe a continuación.</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">Registre BlueXP para obtener soporte de NetApp</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">Para registrarse para recibir soporte y activar el derecho a soporte, un usuario de su organización (o cuenta) de BlueXP debe asociar una cuenta del sitio de soporte de NetApp con su inicio de sesión de BlueXP . La forma de registrarse para el soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente existente con una cuenta NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Si es cliente de NetApp con una cuenta NSS, simplemente necesita registrarse para recibir soporte a través de BlueXP.</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">En la parte superior derecha de la consola BlueXP , seleccione el ícono Configuración y seleccione *Credenciales*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Seleccione *Credenciales de usuario*.</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Seleccione *Agregar credenciales NSS* y siga las instrucciones de autenticación del sitio de soporte de NetApp (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Para confirmar que el proceso de registro fue exitoso, seleccione el ícono de Ayuda y seleccione *Soporte*.</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">La página *Recursos* debería mostrar que su organización BlueXP está registrada para recibir soporte.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Una captura de pantalla que muestra un número de serie de cuenta, una casilla de verificación verde y el texto Registrado para recibir soporte.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">Tenga en cuenta que otros usuarios de BlueXP no verán este mismo estado de registro de soporte si no han asociado una cuenta del sitio de soporte de NetApp con su inicio de sesión de BlueXP . Sin embargo, eso no significa que su organización BlueXP no esté registrada para recibir soporte. Siempre que un usuario de la organización haya seguido estos pasos, su organización quedará registrada.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Soy cliente actual pero no tengo cuenta NSS</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Si es un cliente existente de NetApp con licencias y números de serie existentes pero _no_ una cuenta NSS, debe crear una cuenta NSS y asociarla con su inicio de sesión de BlueXP .</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulario de registro de usuario del sitio de soporte de NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Cree una cuenta en el sitio de soporte de NetApp completando el<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Asegúrese de seleccionar el nivel de usuario apropiado, que normalmente es *Cliente de NetApp /Usuario final*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Asegúrese de copiar el número de serie de la cuenta BlueXP (960xxxx) utilizado anteriormente para el campo de número de serie. Esto acelerará el procesamiento de la cuenta.</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Asocie su nueva cuenta NSS con su inicio de sesión de BlueXP completando los pasos a continuación<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Completamente nuevo en NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si es nuevo en NetApp y no tiene una cuenta NSS, siga cada paso a continuación.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">En la parte superior derecha de la consola BlueXP , seleccione el ícono Ayuda y seleccione *Soporte*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Una captura de pantalla del menú Ayuda donde Soporte es la primera opción que aparece</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Localice el número de serie de su ID de cuenta en la página de Registro de soporte.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Sitio de registro de soporte de NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navegar a<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> y seleccione *No soy un cliente registrado de NetApp *.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Llene los campos obligatorios (aquellos con asteriscos rojos).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">En el campo *Línea de productos*, seleccione *Administrador de nube* y luego seleccione su proveedor de facturación correspondiente.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copie el número de serie de su cuenta del paso 2 anterior, complete la verificación de seguridad y luego confirme que leyó la Política de privacidad de datos global de NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Se envía inmediatamente un correo electrónico al buzón proporcionado para finalizar esta transacción segura. Asegúrese de revisar sus carpetas de correo no deseado si el correo electrónico de validación no llega en unos minutos.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirme la acción desde el correo electrónico.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Al confirmar, se envía su solicitud a NetApp y se recomienda que cree una cuenta en el sitio de soporte de NetApp .</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Asegúrese de copiar el número de serie de la cuenta (960xxxx) utilizado anteriormente para el campo de número de serie. Esto acelerará el procesamiento.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp debería comunicarse con usted durante este proceso. Este es un ejercicio de incorporación único para nuevos usuarios.</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Una vez que tenga su cuenta del sitio de soporte de NetApp , asocie la cuenta con su inicio de sesión de BlueXP completando los pasos a continuación.<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Asociar credenciales NSS para la compatibilidad con Cloud Volumes ONTAP</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Es necesario asociar las credenciales del sitio de soporte de NetApp con su organización BlueXP para habilitar los siguientes flujos de trabajo clave para Cloud Volumes ONTAP:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registro de sistemas Cloud Volumes ONTAP de pago por uso para obtener soporte</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Es necesario proporcionar su cuenta NSS para activar el soporte para su sistema y obtener acceso a los recursos de soporte técnico de NetApp .</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Implementación de Cloud Volumes ONTAP cuando trae su propia licencia (BYOL)</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">Es necesario proporcionar su cuenta NSS para que BlueXP pueda cargar su clave de licencia y habilitar la suscripción por el período que compró. Esto incluye actualizaciones automáticas para renovaciones de plazos.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Actualización del software Cloud Volumes ONTAP a la última versión</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">La asociación de credenciales NSS con su organización BlueXP es diferente a la asociación de una cuenta NSS con un inicio de sesión de usuario de BlueXP .</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Estas credenciales NSS están asociadas con su ID de organización BlueXP específica. Los usuarios que pertenecen a la organización BlueXP pueden acceder a estas credenciales desde *Soporte &gt; Administración de NSS*.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si tiene una cuenta de nivel de cliente, puede agregar una o más cuentas NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si tiene una cuenta de socio o revendedor, puede agregar una o más cuentas NSS, pero no se pueden agregar junto con cuentas de nivel de cliente.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Seleccione *Administración de NSS &gt; Agregar cuenta NSS*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Cuando se le solicite, seleccione *Continuar* para ser redirigido a una página de inicio de sesión de Microsoft.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utiliza Microsoft Entra ID como proveedor de identidad para servicios de autenticación específicos de soporte y licencias.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">En la página de inicio de sesión, proporcione su dirección de correo electrónico y contraseña registradas en el sitio de soporte de NetApp para realizar el proceso de autenticación.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Estas acciones permiten que BlueXP utilice su cuenta NSS para cosas como descargas de licencias, verificación de actualizaciones de software y futuros registros de soporte.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">La cuenta NSS debe ser una cuenta de nivel de cliente (no una cuenta de invitado o temporal). Puede tener varias cuentas NSS a nivel de cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Solo puede haber una cuenta NSS si esa cuenta es una cuenta de nivel de socio. Si intenta agregar cuentas NSS de nivel de cliente y existe una cuenta de nivel de socio, recibirá el siguiente mensaje de error:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"El tipo de cliente NSS no está permitido para esta cuenta porque ya hay usuarios NSS de otro tipo".</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo mismo ocurre si tiene cuentas NSS de nivel de cliente preexistentes e intenta agregar una cuenta de nivel de socio.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Tras iniciar sesión correctamente, NetApp almacenará el nombre de usuario NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un icono de tres puntos horizontales</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Esta es una identificación generada por el sistema que se asigna a su correo electrónico. En la página *Administración de NSS*, puede mostrar su correo electrónico desde el<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menú.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Si alguna vez necesita actualizar sus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en el<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menú.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Al utilizar esta opción se le solicitará que inicie sesión nuevamente. Tenga en cuenta que el token de estas cuentas caduca después de 90 días. Se publicará una notificación para avisarle de esto.</block>
+  <block id="d864f7e5886b05326127f590ca729cf4" category="sidebar">Las actualizaciones de software permiten a los clientes optimizar las actualizaciones de ONTAP .  Automatiza los procesos de evaluación, planificación y ejecución.</block>
+  <block id="ba0ca2267e76f528aae11a6b57ac57a0" category="sidebar">Documentación de actualizaciones de software</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Empezar</block>
+  <block id="61622de15d9e54dbffcb1180e85af14a" category="sidebar">Novedades en las actualizaciones de software</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Inicio rápido</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">Prerrequisitos</block>
+  <block id="ddebeb4ac7a6b4f71908c388f89cb0e4" category="sidebar">Iniciar sesión en las actualizaciones de software</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">Preguntas frecuentes</block>
+  <block id="2a06b57f91392744dbf6f7eda93239cb" category="sidebar">Utilice actualizaciones de software</block>
+  <block id="3e01b70f098c97a8e8c6a729636b23d4" category="sidebar">Elija la versión de destino de ONTAP 9.10 o posterior</block>
+  <block id="7f0db81aba09a1ad44cbe411b40d1b00" category="sidebar">Reparar y reconocer los bloqueadores de ONTAP</block>
+  <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="sidebar">Actualización completa del sistema de almacenamiento ONTAP</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs y comunidad</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">Servicios de datos de NetApp</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
+  <block id="ef748316ed03f8b22c6a2c5fec00f063" category="sidebar">Documentos de actualizaciones de software</block>
+  <block id="dcfbeb8f1660c404fb401cb23dc4a928" category="sidebar">Compare las versiones de ONTAP para comprender los beneficios y riesgos de la actualización</block>
+  <block id="49ec4b514e47d3aeca96090e2282a2b0" category="sidebar">Reparar el bloqueador ONTAP y reconocer las advertencias</block>
+  <block id="4b826e35792ea987dc5df57d49d94c3e" category="sidebar">Iniciar la actualización del sistema de almacenamiento ONTAP</block>
+  <block id="6a3a6a67693146149a85dd92a37f5255" category="sidebar">Comience con las actualizaciones de software</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">Preguntas frecuentes</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Qué hay de nuevo</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
+</blocks>

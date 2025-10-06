@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/fix-blockers-warnings.html 
+keywords: fix ontap blockers and warnings, ontap update precheck, acknowledge warnings 
+summary: Corrija los bloqueadores de ONTAP y reconozca las advertencias que le impiden completar la actualización de ONTAP . 
+---
+= Corrija todos los bloqueadores mediante actualizaciones de software antes de una actualización de ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una vez que haya identificado la versión de destino de ONTAP para su sistema de almacenamiento de ONTAP , debe corregir y reconocer todos los bloqueadores y revisar las advertencias antes de actualizar el sistema de almacenamiento de ONTAP .
+
+Debes reparar y reconocer todos los bloqueadores antes de actualizar el software.
+
+.Pasos
+. Desde la navegación izquierda de la consola, seleccione *Salud* > *Actualizaciones de software*.
++
+La consola muestra la lista de clústeres que requieren una actualización de software.
+
+. Identifique la versión de destino de ONTAP para su sistema de almacenamiento.  Para obtener información sobre cómo identificar la versión de destino de ONTAP , consultelink:../ONTAP/choose-ontap-910-later.html["Compare las versiones de ONTAP para comprender los beneficios y riesgos de usar actualizaciones de software"] .
+. Una vez que haya decidido la versión de destino de ONTAP , seleccione *Preparar para actualización* para iniciar el proceso de actualización.
++
+Se muestra la lista de bloqueadores y advertencias.
+
+. Seleccione el bloqueador para ver las instrucciones para solucionarlo.
+. Realice manualmente los pasos proporcionados para solucionar el bloqueador.
+. Seleccione los bloqueadores que se han corregido y seleccione *Reconocer seleccionados* para reconocer que esos bloqueadores se han corregido.
+
+
+
+NOTE: Debes reparar y reconocer todos los bloqueadores para continuar con la actualización.
+
+. Seleccione la pestaña *Advertencias* para revisar las advertencias antes de continuar con la actualización del software.
+. Seleccione la pestaña *Reconocer* para ver los bloqueadores que se han solucionado.
+. Seleccione *Continuar con la actualización* para continuar con el proceso de actualización.
+

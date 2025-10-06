@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: get-started/quick-start-ontap-update.html 
+keywords: get started with ontap update, ontap update quick start, get started with bluexp software updates, software update quick start guide, NetApp Console 
+summary: Comience a actualizar su sistema de almacenamiento ONTAP de manera sencilla y rápida. 
+---
+= Inicio rápido para actualizar ONTAP mediante actualizaciones de software
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A continuación se muestra una descripción general de los pasos necesarios para comenzar rápidamente con las actualizaciones de software. Los enlaces dentro de cada paso lo llevarán a una página que proporciona más detalles.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1"]Revisar los prerrequisitos
+[role="quick-margin-para"]
+link:../get-started/prerequisites-ontap-update.html["Asegúrese de que su sistema cumpla estos requisitos"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"]Actualice su sistema de almacenamiento ONTAP
+[role="quick-margin-para"]
+Debe completar todas las tareas para actualizar el sistema de almacenamiento ONTAP .
+
+[role="quick-margin-list"]
+* link:../ONTAP/choose-ontap-910-later.html["Identificar la versión de destino de ONTAP"] .
+* link:../ONTAP/fix-blockers-warnings.html["Reparar y reconocer bloqueadores"] .
+* link:../ONTAP/update-storage-system.html["Actualizaciones completas del sistema de almacenamiento ONTAP"] .
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tres"]¿Que sigue?
+[role="quick-margin-para"]
+Después de actualizar el sistema de almacenamiento ONTAP , esto es lo que puede hacer a continuación.
+
+[role="quick-margin-para"]
+link:../ONTAP/validate-storage-system-update.html["Validar el estado de la actualización del sistema de almacenamiento ONTAP"] .

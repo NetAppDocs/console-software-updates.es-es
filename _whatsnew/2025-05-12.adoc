@@ -1,0 +1,9 @@
+= Se necesita el rol de acceso a BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Se necesita el rol de acceso a BlueXP
+
+Ahora necesita uno de los siguientes roles de acceso para instalar actualizaciones de software: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento*, *Visor de almacenamiento* o *Especialista en estado de almacenamiento*.  Los usuarios con el rol de visualizador de almacenamiento tienen varios permisos relacionados con las actualizaciones de software, pero no pueden instalar actualizaciones de software.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP ."^]

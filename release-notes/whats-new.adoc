@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'software updates, ontap update, what"s new, enhancements' 
+summary: Conozca las nuevas características y mejoras introducidas en las actualizaciones de software. 
+---
+= Novedades en las actualizaciones de software
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Conozca las novedades en actualizaciones de software.
+
+
+
+== 6 de octubre de 2025
+
+
+
+=== Las BlueXP software updates ahora son actualizaciones de software
+
+Las BlueXP software updates han pasado a llamarse actualizaciones de software.
+
+Puede acceder a él desde la barra de navegación izquierda de la consola NetApp seleccionando *Estado* > *Actualizaciones de software*.
+
+
+
+=== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+
+
+
+== 12 de mayo de 2025
+
+
+
+=== Se necesita el rol de acceso a BlueXP
+
+Ahora necesita uno de los siguientes roles de acceso para instalar actualizaciones de software: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento*, *Visor de almacenamiento* o *Especialista en estado de almacenamiento*.  Los usuarios con el rol de visualizador de almacenamiento tienen varios permisos relacionados con las actualizaciones de software, pero no pueden instalar actualizaciones de software.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP ."^]
+
+
+
+== 02 de abril de 2025
+
+
+
+=== Riesgos mitigados
+
+En la sección de resumen de BlueXP software updates, ahora puede ver la cantidad total de riesgos que se pueden mitigar con la actualización del sistema operativo.  Esto permite a los usuarios evaluar las mejoras de seguridad y estabilidad en su base de instalación.
+
+
+
+== 7 de agosto de 2024
+
+
+
+=== Actualización de ONTAP
+
+El servicio de BlueXP software updates brinda una experiencia de actualización perfecta a los usuarios al mitigar los riesgos y garantizar que los clientes puedan aprovechar al máximo las funciones de ONTAP .
+
+Obtenga más información sobre link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["BlueXP software updates"] .

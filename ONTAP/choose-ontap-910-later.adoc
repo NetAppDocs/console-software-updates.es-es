@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/choose-ontap-910-later.html 
+keywords: choose ontap target version, ontap update recommendations, identify ontap target version, recommended version, benefits and risks or ONTAP version 
+summary: Comprenda los beneficios y riesgos de cada versión de ONTAP antes de actualizar su sistema de almacenamiento ONTAP . 
+---
+= Compare las versiones de ONTAP para comprender los beneficios y riesgos de usar actualizaciones de software
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es muy importante comparar y comprender los beneficios y riesgos asociados con la versión de destino de ONTAP antes de actualizar la versión de ONTAP para el sistema de almacenamiento.
+
+Puede elegir la versión de destino y compararla con la versión actual para comprender los beneficios de actualizar a la versión específica en ONTAP.  También puede ver los riesgos que se resolverán y los nuevos riesgos (si los hay) que surgirán al actualizar a la versión específica de ONTAP.
+
+
+NOTE: Puede utilizar esta función solo si está ejecutando ONTAP 9.10 o versiones posteriores.
+
+.Pasos
+. Desde la navegación izquierda de la consola, seleccione *Salud* > *Actualizaciones de software*.
++
+Se muestra la lista de clústeres que requieren una actualización de software.  Puede actualizar a la versión de destino recomendada o elegir otra versión.
+
+
+
+|===
+| Si usted... | Haz esto... 
+
+
+ a| 
+¿Quieres actualizar a la versión recomendada?
+ a| 
+. En la columna *Versión de destino*, haga clic en *Comparar versiones* para ver los beneficios y riesgos de actualizar a la versión recomendada de ONTAP .
+. Seleccione y vea información sobre los riesgos que se resolverán, los riesgos que continuarán existiendo y los nuevos riesgos que se introducirán después de la actualización.
+. Opcionalmente, haga clic en *Descargar plan de actualización* para descargar una copia del plan de actualización.
+. Haga clic en *Iniciar actualización* para iniciar el proceso de actualización.
+
+
+
+
+ a| 
+¿Quieres elegir otra versión?
+ a| 
+. En la columna *Versión de destino*, haga clic en el menú desplegable y seleccione *Elegir otras versiones*.
+. Seleccione la versión para ver los beneficios de las funciones y los riesgos.
+. Seleccione y vea información sobre los riesgos que se resolverán, los riesgos que continuarán existiendo y los nuevos riesgos que se introducirán después de la actualización.
+. Opcionalmente, haga clic en *Descargar plan de actualización* para descargar una copia del plan de actualización.
+. Seleccione *Iniciar actualización* para iniciar el proceso de actualización.
+
+
+|===
