@@ -15,7 +15,7 @@ Si desea saber más sobre las actualizaciones de software o necesita ayuda para 
 
 *¿Cuál es la URL de actualizaciones de software?*
 
-Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la consola de NetApp .
+Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la NetApp Console.
 
 ¿Necesita una licencia para utilizar actualizaciones de software?
 

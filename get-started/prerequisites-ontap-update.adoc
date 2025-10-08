@@ -13,7 +13,7 @@ summary: Revise los prerrequisitos y requisitos antes de continuar con la actual
 [role="lead"]
 Debe revisar los requisitos previos y los requisitos antes de continuar con la actualización de ONTAP .  Puede utilizar actualizaciones de software para verificar la preparación de su sistema, inicio de sesión, acceso a la red y navegador web.
 
-.Rol de consola de NetApp requerido:
+.Rol de NetApp Console requerido:
 Administrador de la organización, administrador de carpeta o proyecto, administrador de almacenamiento, visor de almacenamiento o especialista en estado del sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola."^]
 
 Para utilizar actualizaciones de software, debe asegurarse de que su sistema cumpla con todos los requisitos.

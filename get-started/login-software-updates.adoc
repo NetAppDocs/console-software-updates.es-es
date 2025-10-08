@@ -11,7 +11,7 @@ summary: Inicie sesión y acceda a las actualizaciones de software.
 
 
 [role="lead"]
-Para acceder a las actualizaciones de software, debe iniciar sesión en la consola de NetApp .
+Para acceder a las actualizaciones de software, debe iniciar sesión en la NetApp Console.
 
 Inicie sesión con sus credenciales del sitio de soporte de NetApp o regístrese con su correo electrónico y contraseña. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^] .
 

@@ -23,15 +23,15 @@ Conozca las novedades en actualizaciones de software.
 
 Las BlueXP software updates han pasado a llamarse actualizaciones de software.
 
-Puede acceder a él desde la barra de navegación izquierda de la consola NetApp seleccionando *Estado* > *Actualizaciones de software*.
+Puede acceder a él desde la barra de navegación izquierda de la NetApp Console seleccionando *Estado* > *Actualizaciones de software*.
 
 
 
 === BlueXP ahora es NetApp Console
 
-La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+La NetApp Console, construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los NetApp Data Services en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
 
-Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la NetApp Console"] .
 
 
 
@@ -41,7 +41,7 @@ Para obtener más detalles sobre lo que ha cambiado, consulte la https://docs.ne
 
 === Se necesita el rol de acceso a BlueXP
 
-Ahora necesita uno de los siguientes roles de acceso para instalar actualizaciones de software: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento*, *Visor de almacenamiento* o *Especialista en estado de almacenamiento*.  Los usuarios con el rol de visualizador de almacenamiento tienen varios permisos relacionados con las actualizaciones de software, pero no pueden instalar actualizaciones de software.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP ."^]
+Ahora necesita uno de los siguientes roles de acceso para instalar actualizaciones de software: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento*, *Visor de almacenamiento* o *Especialista en estado de almacenamiento*. Los usuarios con el rol de visualizador de almacenamiento tienen varios permisos relacionados con las actualizaciones de software, pero no pueden instalar actualizaciones de software.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP ."^]
 
 
 
@@ -51,7 +51,7 @@ Ahora necesita uno de los siguientes roles de acceso para instalar actualizacion
 
 === Riesgos mitigados
 
-En la sección de resumen de BlueXP software updates, ahora puede ver la cantidad total de riesgos que se pueden mitigar con la actualización del sistema operativo.  Esto permite a los usuarios evaluar las mejoras de seguridad y estabilidad en su base de instalación.
+En la sección de resumen de BlueXP software updates, ahora puede ver la cantidad total de riesgos que se pueden mitigar con la actualización del sistema operativo. Esto permite a los usuarios evaluar las mejoras de seguridad y estabilidad en su base de instalación.
 
 
 
