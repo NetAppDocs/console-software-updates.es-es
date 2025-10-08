@@ -32,7 +32,7 @@ indexpage:
   - title: Blogs y comunidad
     links:
     - title: Consola de NetApp
-      url: https://www.netapp.com/console
+      url: https://www.netapp.com/console/
     - title: Servicios de datos de NetApp
       url: https://www.netapp.com/data-services/
     - title: Comunidad de NetApp
