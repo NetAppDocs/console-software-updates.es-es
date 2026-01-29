@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get-started/software-updates.html 
-keywords: ontap 9.10, ontap update, supported systems for ontap update, ontap version, software updates benefits 
+keywords: ontap 9.10.1, ontap update, supported systems for ontap update, ontap version, software updates benefits 
 summary: Actualice sin problemas su sistema de almacenamiento ONTAP para aprovechar las funciones nuevas y mejoradas mediante actualizaciones de software. 
 ---
 = Obtenga más información sobre las actualizaciones de software
@@ -31,7 +31,7 @@ Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-ad
 
 == Sistemas ONTAP compatibles
 
-Puede completar la actualización de ONTAP usando actualizaciones de software solo si está ejecutando ONTAP 9.10 o versiones posteriores.
+Puedes completar la actualización de ONTAP usando actualizaciones de software solo si estás ejecutando ONTAP 9.10.1 o versiones posteriores.
 
 La siguiente información proporciona el proceso de actualización de software para diferentes versiones de ONTAP :
 
@@ -39,17 +39,17 @@ La siguiente información proporciona el proceso de actualización de software p
 | *Versión actual de ONTAP * | *Proceso de actualización* 
 
 
-| 9.12 y superior | Todos los pasos de la actualización de ONTAP ocurren dentro de la consola. 
+| 9.12.1 y posteriores | Todos los pasos de la actualización de ONTAP ocurren dentro de la consola. 
 
 
-| 9.10 a 9.12 | La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real.  Para ejecutar todos los pasos de actualización de ONTAP dentro de la consola, necesitalink:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["configurar un agente de consola"] . 
+| 9.10.1 a 9.12.1 | La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real.  Para ejecutar todos los pasos de actualización de ONTAP dentro de la consola, necesitalink:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["configurar un agente de consola"] . 
 
 
-| 9.8 a 9.10 | La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real. 
-
-
-| Por debajo de 9,7 | La actualización automatizada de ONTAP no es compatible con este clúster.  Necesita actualizar ONTAP manualmente. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["Actualice manualmente sus sistemas de almacenamiento"] . 
+| 9.8 a 9.10.1 | La preparación para la actualización de ONTAP se realiza dentro de las pantallas de actualizaciones de software.  Serás dirigido al Administrador del sistema para realizar la actualización de ONTAP real. 
 |===
+
+NOTE: Las actualizaciones de software no son compatibles con Cloud Volumes ONTAP.
+
 
 
 == Beneficios de utilizar actualizaciones de software

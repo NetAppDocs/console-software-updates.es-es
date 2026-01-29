@@ -16,7 +16,7 @@ Es muy importante comparar y comprender los beneficios y riesgos asociados con l
 Puede elegir la versión de destino y compararla con la versión actual para comprender los beneficios de actualizar a la versión específica en ONTAP.  También puede ver los riesgos que se resolverán y los nuevos riesgos (si los hay) que surgirán al actualizar a la versión específica de ONTAP.
 
 
-NOTE: Puede utilizar esta función solo si está ejecutando ONTAP 9.10 o versiones posteriores.
+NOTE: Solo puedes usar esta función si estás ejecutando ONTAP 9.10.1 o versiones posteriores.
 
 .Pasos
 . Desde la navegación izquierda de la consola, seleccione *Salud* > *Actualizaciones de software*.
